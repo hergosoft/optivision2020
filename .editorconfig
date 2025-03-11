@@ -1,0 +1,4 @@
+﻿[*.vb]
+
+# BC42353: La función no devuelve un valor en todas las rutas de código
+dotnet_diagnostic.BC42353.severity = none
