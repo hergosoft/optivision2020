@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{28866567-57F5-41CF-BA84-95F14908CD22}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Optica_Sosa.My.MyApplication</StartupObject>
-    <RootNamespace>Optica_Sosa</RootNamespace>
-    <AssemblyName>Optica_Sosa</AssemblyName>
+    <StartupObject>OptiVision_2020.My.MyApplication</StartupObject>
+    <RootNamespace>OptiVision_2020</RootNamespace>
+    <AssemblyName>OptiVision_2020</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     </SccAuxPath>
     <SccProvider>
     </SccProvider>
-    <PublishUrl>ftp://185.214.127.18/apps/optica_sosa/</PublishUrl>
+    <PublishUrl>ftp://185.214.127.18/apps/optivision_2020/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -32,14 +32,14 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <UpdateUrl>https://g-optics.com.gt/apps/optica_sosa/</UpdateUrl>
+    <UpdateUrl>https://g-optics.com.gt/apps/optivision_2020/</UpdateUrl>
     <SupportUrl>http://hergosoft.com/support.html</SupportUrl>
     <ErrorReportUrl>http://hergosoft.com/error_app.html</ErrorReportUrl>
-    <ProductName>G-Optics Optica Sosa</ProductName>
+    <ProductName>G-Optics OptiVision 2020</ProductName>
     <PublisherName>Hergosoft</PublisherName>
-    <SuiteName>Optica Sosa</SuiteName>
+    <SuiteName>OptiVision 2020</SuiteName>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>164</ApplicationRevision>
+    <ApplicationRevision>165</ApplicationRevision>
     <ApplicationVersion>1.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -53,7 +53,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Optica_Sosa.xml</DocumentationFile>
+    <DocumentationFile>OptiVision_2020.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -64,7 +64,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Optica_Sosa.xml</DocumentationFile>
+    <DocumentationFile>OptiVision_2020.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -93,7 +93,7 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>logo%281%29.ico</ApplicationIcon>
+    <ApplicationIcon>icono.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -696,6 +696,7 @@
     <None Include="Resources\Save_37110.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icono.ico" />
     <Content Include="icono_santaP.ico" />
     <Content Include="IRIS-32X32.ico" />
     <Content Include="logo%281%29.ico" />
@@ -703,6 +704,7 @@
     <Content Include="logo_perfect%281%29.ico" />
     <Content Include="logo_perfect.ico" />
     <Content Include="perfectvision.ico" />
+    <None Include="Resources\Optivision2020_logo.jpg" />
     <None Include="Resources\qr_atencionalcliente.png" />
     <None Include="Resources\delux1e.jpg" />
     <None Include="Resources\logomobil.png" />
@@ -738,6 +740,46 @@
     <None Include="Resources\analytics.png" />
   </ItemGroup>
   <ItemGroup>
+    <PublishFile Include="icono_santaP.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="logo_perfect%281%29%281%29.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="logo_perfect%281%29.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="logo_perfect.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
     <PublishFile Include="Microsoft.Office.Interop.Excel">
       <Visible>False</Visible>
       <Group>

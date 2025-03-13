@@ -393,7 +393,7 @@ Partial Class mantenimiento_expedientes
         Me.historia_completa.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonFace
         Me.historia_completa.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.historia_completa.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.historia_completa.Image = Global.Optica_Sosa.My.Resources.Resources.checklist
+        Me.historia_completa.Image = Global.OptiVision_2020.My.Resources.Resources.checklist
         Me.historia_completa.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.historia_completa.Location = New System.Drawing.Point(1085, 16)
         Me.historia_completa.Name = "historia_completa"
@@ -457,7 +457,7 @@ Partial Class mantenimiento_expedientes
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Button4.Image = Global.Optica_Sosa.My.Resources.Resources.refresh
+        Me.Button4.Image = Global.OptiVision_2020.My.Resources.Resources.refresh
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button4.Location = New System.Drawing.Point(461, 14)
         Me.Button4.Name = "Button4"
@@ -474,7 +474,7 @@ Partial Class mantenimiento_expedientes
         Me.desactivar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.desactivar.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.desactivar.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.desactivar.Image = Global.Optica_Sosa.My.Resources.Resources.locationoff
+        Me.desactivar.Image = Global.OptiVision_2020.My.Resources.Resources.locationoff
         Me.desactivar.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.desactivar.Location = New System.Drawing.Point(386, 12)
         Me.desactivar.Name = "desactivar"
@@ -491,7 +491,7 @@ Partial Class mantenimiento_expedientes
         Me.editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.editar.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.editar.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.editar.Image = Global.Optica_Sosa.My.Resources.Resources.lapiz
+        Me.editar.Image = Global.OptiVision_2020.My.Resources.Resources.lapiz
         Me.editar.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.editar.Location = New System.Drawing.Point(311, 12)
         Me.editar.Name = "editar"
@@ -507,7 +507,7 @@ Partial Class mantenimiento_expedientes
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.binoculares
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.binoculares
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(87, 12)
         Me.Button2.Name = "Button2"
@@ -523,7 +523,7 @@ Partial Class mantenimiento_expedientes
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.mas
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.mas
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(162, 12)
         Me.Button1.Name = "Button1"
@@ -539,7 +539,7 @@ Partial Class mantenimiento_expedientes
         Me.grabar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.grabar.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grabar.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.grabar.Image = Global.Optica_Sosa.My.Resources.Resources.guardar
+        Me.grabar.Image = Global.OptiVision_2020.My.Resources.Resources.guardar
         Me.grabar.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.grabar.Location = New System.Drawing.Point(237, 12)
         Me.grabar.Name = "grabar"
@@ -555,7 +555,7 @@ Partial Class mantenimiento_expedientes
         Me.NUEVO.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.NUEVO.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NUEVO.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.NUEVO.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.NUEVO.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.NUEVO.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.NUEVO.Location = New System.Drawing.Point(12, 12)
         Me.NUEVO.Name = "NUEVO"

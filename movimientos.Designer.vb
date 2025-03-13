@@ -81,7 +81,7 @@ Partial Class movimientos
         'Button4
         '
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Image = Global.Optica_Sosa.My.Resources.Resources.analytics
+        Me.Button4.Image = Global.OptiVision_2020.My.Resources.Resources.analytics
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button4.Location = New System.Drawing.Point(338, 24)
         Me.Button4.Name = "Button4"
@@ -245,7 +245,7 @@ Partial Class movimientos
         '
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Image = Global.Optica_Sosa.My.Resources.Resources.printer
+        Me.Button5.Image = Global.OptiVision_2020.My.Resources.Resources.printer
         Me.Button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button5.Location = New System.Drawing.Point(395, 11)
         Me.Button5.Name = "Button5"
@@ -260,7 +260,7 @@ Partial Class movimientos
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button3.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button3.Location = New System.Drawing.Point(600, 10)
         Me.Button3.Name = "Button3"
@@ -274,7 +274,7 @@ Partial Class movimientos
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.guardar
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.guardar
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(480, 11)
         Me.Button2.Name = "Button2"
@@ -288,7 +288,7 @@ Partial Class movimientos
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.mas
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.mas
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(9, 9)
         Me.Button1.Name = "Button1"

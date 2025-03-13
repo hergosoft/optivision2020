@@ -10,9 +10,26 @@ Public Class registra_maquina
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         'actualizo el registro de la maquina
+        'Try
+        '    conexion.Open()
+        '    consulta = ("UPDATE catagencias set serial='" & serial1.Text & "', registro='" & dashboard.usuario.Text & "' where id_agencia='" & agencia.Text & "'")
+        '    com = New MySqlCommand(consulta, conexion)
+        '    com.ExecuteNonQuery()
+        '    MessageBox.Show("Equipo registrado con exito, por favor cierre el sistema y vuelva a abrirlo!")
+        '    conexion.Close()
+        '    usuarios.Button4.Enabled = True
+        '    Me.Dispose()
+        'Catch ex As Exception
+        '    MsgBox("No fue posible registrar este equipo, si el error persiste contacta con Soporte Tecnico " &
+        '        vbCrLf & vbCrLf & ex.Message,
+        '        MsgBoxStyle.OkOnly + MsgBoxStyle.Critical)
+        '    conexion.Close()
+        '    Me.Dispose()
+
+        'End Try
         Try
             conexion.Open()
-            consulta = ("UPDATE catagencias set serial='" & serial1.Text & "', registro='" & dashboard.usuario.Text & "' where id_agencia='" & agencia.Text & "'")
+            consulta = "insert into regpventa (serial,agencia, usuario) values ('" & serial1.Text & "', '" & agencia.Text & "','" & dashboard.usuario.Text & "')"
             com = New MySqlCommand(consulta, conexion)
             com.ExecuteNonQuery()
             MessageBox.Show("Equipo registrado con exito, por favor cierre el sistema y vuelva a abrirlo!")
@@ -20,7 +37,7 @@ Public Class registra_maquina
             usuarios.Button4.Enabled = True
             Me.Dispose()
         Catch ex As Exception
-            MsgBox("No fue posible registrar este equipo, si el error persiste contacta con Soporte Tecnico " &
+            MsgBox("No fue posible registrar este equipo, si el Error persiste contacta con Soporte Tecnico " &
                 vbCrLf & vbCrLf & ex.Message,
                 MsgBoxStyle.OkOnly + MsgBoxStyle.Critical)
             conexion.Close()
@@ -61,7 +78,7 @@ Public Class registra_maquina
         SO.Text = My.Computer.Info.OSFullName
         version.Text = My.Computer.Info.OSVersion
 
-        Dim consultaSQLArquitectura As String = "SELECT * FROM Win32_Processor"
+        Dim consultaSQLArquitectura As String = "Select * FROM Win32_Processor"
         Dim objArquitectura As New ManagementObjectSearcher(consultaSQLArquitectura)
         Dim ArquitecturaSO As String = ""
         For Each info As ManagementObject In objArquitectura.Get()

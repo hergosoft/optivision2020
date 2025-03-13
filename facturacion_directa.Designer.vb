@@ -22,12 +22,12 @@ Partial Class facturacion_directa
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.ChDPI = New System.Windows.Forms.RadioButton()
         Me.ChNIT = New System.Windows.Forms.RadioButton()
@@ -322,14 +322,14 @@ Partial Class facturacion_directa
         Me.dtv_facturacion.BackgroundColor = System.Drawing.Color.White
         Me.dtv_facturacion.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SunkenVertical
         Me.dtv_facturacion.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dtv_facturacion.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dtv_facturacion.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.dtv_facturacion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dtv_facturacion.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.cantidad, Me.codigo, Me.descripcion, Me.PRECIO, Me.preciounitotal, Me.descuentodt, Me.subtotal, Me.costo})
         Me.dtv_facturacion.Location = New System.Drawing.Point(11, 180)
@@ -343,8 +343,8 @@ Partial Class facturacion_directa
         '
         'cantidad
         '
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter
-        Me.cantidad.DefaultCellStyle = DataGridViewCellStyle14
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter
+        Me.cantidad.DefaultCellStyle = DataGridViewCellStyle2
         Me.cantidad.HeaderText = "CANT."
         Me.cantidad.Name = "cantidad"
         Me.cantidad.ReadOnly = True
@@ -352,8 +352,8 @@ Partial Class facturacion_directa
         '
         'codigo
         '
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter
-        Me.codigo.DefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter
+        Me.codigo.DefaultCellStyle = DataGridViewCellStyle3
         Me.codigo.HeaderText = "CODIGO"
         Me.codigo.Name = "codigo"
         Me.codigo.ReadOnly = True
@@ -368,8 +368,8 @@ Partial Class facturacion_directa
         '
         'PRECIO
         '
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter
-        Me.PRECIO.DefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter
+        Me.PRECIO.DefaultCellStyle = DataGridViewCellStyle4
         Me.PRECIO.HeaderText = "PRECIO U."
         Me.PRECIO.Name = "PRECIO"
         Me.PRECIO.ReadOnly = True
@@ -384,8 +384,8 @@ Partial Class facturacion_directa
         '
         'descuentodt
         '
-        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter
-        Me.descuentodt.DefaultCellStyle = DataGridViewCellStyle17
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter
+        Me.descuentodt.DefaultCellStyle = DataGridViewCellStyle5
         Me.descuentodt.HeaderText = "DESCUENTO"
         Me.descuentodt.Name = "descuentodt"
         Me.descuentodt.ReadOnly = True
@@ -393,8 +393,8 @@ Partial Class facturacion_directa
         '
         'subtotal
         '
-        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter
-        Me.subtotal.DefaultCellStyle = DataGridViewCellStyle18
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter
+        Me.subtotal.DefaultCellStyle = DataGridViewCellStyle6
         Me.subtotal.HeaderText = "TOTAL"
         Me.subtotal.Name = "subtotal"
         Me.subtotal.ReadOnly = True
@@ -640,7 +640,7 @@ Partial Class facturacion_directa
         '
         Me.anular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.anular.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.anular.Image = Global.Optica_Sosa.My.Resources.Resources.cancel
+        Me.anular.Image = Global.OptiVision_2020.My.Resources.Resources.cancel
         Me.anular.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.anular.Location = New System.Drawing.Point(407, 406)
         Me.anular.Name = "anular"
@@ -655,7 +655,7 @@ Partial Class facturacion_directa
         '
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Image = Global.Optica_Sosa.My.Resources.Resources.printer
+        Me.Button8.Image = Global.OptiVision_2020.My.Resources.Resources.printer
         Me.Button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button8.Location = New System.Drawing.Point(407, 406)
         Me.Button8.Name = "Button8"
@@ -670,7 +670,7 @@ Partial Class facturacion_directa
         '
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Image = Global.Optica_Sosa.My.Resources.Resources.printer
+        Me.Button5.Image = Global.OptiVision_2020.My.Resources.Resources.printer
         Me.Button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button5.Location = New System.Drawing.Point(758, 415)
         Me.Button5.Name = "Button5"
@@ -684,7 +684,7 @@ Partial Class facturacion_directa
         '
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Franklin Gothic Demi", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Image = Global.Optica_Sosa.My.Resources.Resources.guardar
+        Me.Button4.Image = Global.OptiVision_2020.My.Resources.Resources.guardar
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button4.Location = New System.Drawing.Point(506, 406)
         Me.Button4.Name = "Button4"
@@ -698,7 +698,7 @@ Partial Class facturacion_directa
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Franklin Gothic Demi", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button3.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button3.Location = New System.Drawing.Point(605, 407)
         Me.Button3.Name = "Button3"
@@ -712,7 +712,7 @@ Partial Class facturacion_directa
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Font = New System.Drawing.Font("Franklin Gothic Demi", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.registradora
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.registradora
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(407, 406)
         Me.Button2.Name = "Button2"
@@ -726,7 +726,7 @@ Partial Class facturacion_directa
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Franklin Gothic Demi", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.mas
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.mas
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(12, 410)
         Me.Button1.Name = "Button1"
@@ -767,7 +767,7 @@ Partial Class facturacion_directa
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Optica_Sosa.My.Resources.Resources.Logo_Ososa1
+        Me.PictureBox1.Image = Global.OptiVision_2020.My.Resources.Resources.Optivision2020_logo
         Me.PictureBox1.Location = New System.Drawing.Point(871, 475)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(114, 59)
@@ -824,7 +824,7 @@ Partial Class facturacion_directa
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(708, 477)
+        Me.ClientSize = New System.Drawing.Size(708, 473)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label14)

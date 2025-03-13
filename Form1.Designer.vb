@@ -167,7 +167,7 @@ Partial Class login
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Optica_Sosa.My.Resources.Resources.gopticslogo
+        Me.PictureBox1.Image = Global.OptiVision_2020.My.Resources.Resources.gopticslogo
         Me.PictureBox1.Location = New System.Drawing.Point(9, 7)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(141, 138)
@@ -180,7 +180,7 @@ Partial Class login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.BackgroundImage = Global.Optica_Sosa.My.Resources.Resources.bggoptics
+        Me.BackgroundImage = Global.OptiVision_2020.My.Resources.Resources.bggoptics
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(507, 239)
         Me.ControlBox = False

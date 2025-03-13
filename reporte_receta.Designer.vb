@@ -113,7 +113,7 @@ Partial Class reporte_receta
         'Button1
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(453, 150)
         Me.Button1.Name = "Button1"
@@ -127,7 +127,7 @@ Partial Class reporte_receta
         '
         Me.Button2.Enabled = False
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.excel_n
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.excel_n
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(125, 150)
         Me.Button2.Name = "Button2"
@@ -140,7 +140,7 @@ Partial Class reporte_receta
         'Button3
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Image = Global.Optica_Sosa.My.Resources.Resources.binoculares
+        Me.Button3.Image = Global.OptiVision_2020.My.Resources.Resources.binoculares
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button3.Location = New System.Drawing.Point(9, 151)
         Me.Button3.Name = "Button3"

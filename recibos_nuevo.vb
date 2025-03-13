@@ -658,7 +658,7 @@ Public Class recibos_nuevo
         cellRect.Location = New Point(CurX, CurY)
         cellRect.Size = New Size(iWidth, CurY)
         'imprimo nombre de la empresa 
-        e.Graphics.DrawImage(PictureBox1.Image, 70, 0, 150, 79)
+        e.Graphics.DrawImage(PictureBox1.Image, 43, 7, 215, 50)
         'imprimo tipo de documento 
         cellRect.Location = New Point(CurX, CurY + 37)
         e.Graphics.DrawString("RECIBO DE PAGO", fuente3, Brushes.Black, cellRect, TopCenter)

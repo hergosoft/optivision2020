@@ -57,6 +57,9 @@ Partial Class dashboard
         Me.NuevaToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.HistoriasClinicasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MoificarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HistoriaClinicaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NuevaToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BuscarToolStripMenuItem7 = New System.Windows.Forms.ToolStripMenuItem()
         Me.FacturacionToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.NuevaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OrdenesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -155,9 +158,6 @@ Partial Class dashboard
         Me.ToolStripSeparator13 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripSeparator6 = New System.Windows.Forms.ToolStripSeparator()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.HistoriaClinicaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BuscarToolStripMenuItem7 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NuevaToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
@@ -180,7 +180,7 @@ Partial Class dashboard
         'ProductosToolStripMenuItem
         '
         Me.ProductosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.productos, Me.ConsultaToolStripMenuItem})
-        Me.ProductosToolStripMenuItem.Image = Global.Optica_Sosa.My.Resources.Resources.binoculares
+        Me.ProductosToolStripMenuItem.Image = Global.OptiVision_2020.My.Resources.Resources.binoculares
         Me.ProductosToolStripMenuItem.Name = "ProductosToolStripMenuItem"
         Me.ProductosToolStripMenuItem.Size = New System.Drawing.Size(93, 20)
         Me.ProductosToolStripMenuItem.Text = "Productos"
@@ -258,7 +258,7 @@ Partial Class dashboard
         'OpticaToolStripMenuItem
         '
         Me.OpticaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RecibosToolStripMenuItem, Me.OrdenDeLaboratorioToolStripMenuItem1, Me.OrdenesDeTrabajoToolStripMenuItem, Me.NotaDeEntregaToolStripMenuItem, Me.HistoriasClinicasToolStripMenuItem, Me.HistoriaClinicaToolStripMenuItem1, Me.FacturacionToolStripMenuItem1, Me.RecibosDePagoVentasDiariasToolStripMenuItem})
-        Me.OpticaToolStripMenuItem.Image = Global.Optica_Sosa.My.Resources.Resources.laptop
+        Me.OpticaToolStripMenuItem.Image = Global.OptiVision_2020.My.Resources.Resources.laptop
         Me.OpticaToolStripMenuItem.Name = "OpticaToolStripMenuItem"
         Me.OpticaToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
         Me.OpticaToolStripMenuItem.Text = "Caja"
@@ -267,7 +267,7 @@ Partial Class dashboard
         '
         Me.RecibosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ReciboToolStripMenuItem, Me.AbonoOrdenToolStripMenuItem, Me.BuscarToolStripMenuItem1, Me.AnularToolStripMenuItem})
         Me.RecibosToolStripMenuItem.Name = "RecibosToolStripMenuItem"
-        Me.RecibosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RecibosToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
         Me.RecibosToolStripMenuItem.Text = "Recibo"
         '
         'ReciboToolStripMenuItem
@@ -301,7 +301,7 @@ Partial Class dashboard
         '
         Me.OrdenDeLaboratorioToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaToolStripMenuItem2, Me.EnviarALaboratorioToolStripMenuItem, Me.BuscarToolStripMenuItem3, Me.RectificacionesToolStripMenuItem, Me.AnularToolStripMenuItem1})
         Me.OrdenDeLaboratorioToolStripMenuItem1.Name = "OrdenDeLaboratorioToolStripMenuItem1"
-        Me.OrdenDeLaboratorioToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.OrdenDeLaboratorioToolStripMenuItem1.Size = New System.Drawing.Size(165, 22)
         Me.OrdenDeLaboratorioToolStripMenuItem1.Text = "Orden de Trabajo"
         '
         'NuevaToolStripMenuItem2
@@ -345,7 +345,7 @@ Partial Class dashboard
         '
         Me.OrdenesDeTrabajoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaToolStripMenuItem1, Me.BuscarToolStripMenuItem2, Me.AnulacionToolStripMenuItem1})
         Me.OrdenesDeTrabajoToolStripMenuItem.Name = "OrdenesDeTrabajoToolStripMenuItem"
-        Me.OrdenesDeTrabajoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.OrdenesDeTrabajoToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
         Me.OrdenesDeTrabajoToolStripMenuItem.Text = "Facturacion"
         '
         'NuevaToolStripMenuItem1
@@ -373,7 +373,7 @@ Partial Class dashboard
         '
         Me.NotaDeEntregaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaToolStripMenuItem3})
         Me.NotaDeEntregaToolStripMenuItem.Name = "NotaDeEntregaToolStripMenuItem"
-        Me.NotaDeEntregaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NotaDeEntregaToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
         Me.NotaDeEntregaToolStripMenuItem.Text = "Nota de Entrega"
         '
         'NuevaToolStripMenuItem3
@@ -386,53 +386,73 @@ Partial Class dashboard
         '
         Me.HistoriasClinicasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MoificarToolStripMenuItem})
         Me.HistoriasClinicasToolStripMenuItem.Name = "HistoriasClinicasToolStripMenuItem"
-        Me.HistoriasClinicasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.HistoriasClinicasToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
         Me.HistoriasClinicasToolStripMenuItem.Text = "Expedientes"
         '
         'MoificarToolStripMenuItem
         '
         Me.MoificarToolStripMenuItem.Enabled = False
         Me.MoificarToolStripMenuItem.Name = "MoificarToolStripMenuItem"
-        Me.MoificarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.MoificarToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.MoificarToolStripMenuItem.Text = "Modificar"
         Me.MoificarToolStripMenuItem.Visible = False
+        '
+        'HistoriaClinicaToolStripMenuItem1
+        '
+        Me.HistoriaClinicaToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaToolStripMenuItem5, Me.BuscarToolStripMenuItem7})
+        Me.HistoriaClinicaToolStripMenuItem1.Name = "HistoriaClinicaToolStripMenuItem1"
+        Me.HistoriaClinicaToolStripMenuItem1.Size = New System.Drawing.Size(165, 22)
+        Me.HistoriaClinicaToolStripMenuItem1.Text = "Historia Clinica"
+        '
+        'NuevaToolStripMenuItem5
+        '
+        Me.NuevaToolStripMenuItem5.Name = "NuevaToolStripMenuItem5"
+        Me.NuevaToolStripMenuItem5.Size = New System.Drawing.Size(109, 22)
+        Me.NuevaToolStripMenuItem5.Text = "Nueva"
+        Me.NuevaToolStripMenuItem5.Visible = False
+        '
+        'BuscarToolStripMenuItem7
+        '
+        Me.BuscarToolStripMenuItem7.Name = "BuscarToolStripMenuItem7"
+        Me.BuscarToolStripMenuItem7.Size = New System.Drawing.Size(109, 22)
+        Me.BuscarToolStripMenuItem7.Text = "Buscar"
         '
         'FacturacionToolStripMenuItem1
         '
         Me.FacturacionToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaToolStripMenuItem, Me.OrdenesToolStripMenuItem1, Me.BuscarToolStripMenuItem, Me.AnulacionToolStripMenuItem})
         Me.FacturacionToolStripMenuItem1.Name = "FacturacionToolStripMenuItem1"
-        Me.FacturacionToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.FacturacionToolStripMenuItem1.Size = New System.Drawing.Size(165, 22)
         Me.FacturacionToolStripMenuItem1.Text = "Facturacion"
         Me.FacturacionToolStripMenuItem1.Visible = False
         '
         'NuevaToolStripMenuItem
         '
         Me.NuevaToolStripMenuItem.Name = "NuevaToolStripMenuItem"
-        Me.NuevaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NuevaToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.NuevaToolStripMenuItem.Text = "Nueva"
         '
         'OrdenesToolStripMenuItem1
         '
         Me.OrdenesToolStripMenuItem1.Name = "OrdenesToolStripMenuItem1"
-        Me.OrdenesToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.OrdenesToolStripMenuItem1.Size = New System.Drawing.Size(136, 22)
         Me.OrdenesToolStripMenuItem1.Text = "De Ordenes"
         '
         'BuscarToolStripMenuItem
         '
         Me.BuscarToolStripMenuItem.Name = "BuscarToolStripMenuItem"
-        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.BuscarToolStripMenuItem.Text = "Consultar"
         '
         'AnulacionToolStripMenuItem
         '
         Me.AnulacionToolStripMenuItem.Name = "AnulacionToolStripMenuItem"
-        Me.AnulacionToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AnulacionToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.AnulacionToolStripMenuItem.Text = "Anular"
         '
         'RecibosDePagoVentasDiariasToolStripMenuItem
         '
         Me.RecibosDePagoVentasDiariasToolStripMenuItem.Name = "RecibosDePagoVentasDiariasToolStripMenuItem"
-        Me.RecibosDePagoVentasDiariasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RecibosDePagoVentasDiariasToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
         Me.RecibosDePagoVentasDiariasToolStripMenuItem.Text = "Corte de Caja"
         '
         'm_inventario
@@ -822,7 +842,7 @@ Partial Class dashboard
         '
         'SalirToolStripMenuItem
         '
-        Me.SalirToolStripMenuItem.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.SalirToolStripMenuItem.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
         Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(62, 20)
         Me.SalirToolStripMenuItem.Text = "Salir"
@@ -905,7 +925,7 @@ Partial Class dashboard
         Me.ToolStripButton1.AutoSize = False
         Me.ToolStripButton1.BackColor = System.Drawing.SystemColors.Info
         Me.ToolStripButton1.Font = New System.Drawing.Font("Segoe UI Symbol", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ToolStripButton1.Image = Global.Optica_Sosa.My.Resources.Resources.laptop
+        Me.ToolStripButton1.Image = Global.OptiVision_2020.My.Resources.Resources.laptop
         Me.ToolStripButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
@@ -916,10 +936,10 @@ Partial Class dashboard
         '
         'agencia
         '
-        Me.agencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.agencia.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.agencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.agencia.ForeColor = System.Drawing.Color.Red
         Me.agencia.Name = "agencia"
-        Me.agencia.Size = New System.Drawing.Size(86, 22)
+        Me.agencia.Size = New System.Drawing.Size(97, 22)
         Me.agencia.Text = "Jocotenango"
         '
         'ip_maquina
@@ -961,7 +981,7 @@ Partial Class dashboard
         'ToolStripButton6
         '
         Me.ToolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton6.Image = Global.Optica_Sosa.My.Resources.Resources.binoculares
+        Me.ToolStripButton6.Image = Global.OptiVision_2020.My.Resources.Resources.binoculares
         Me.ToolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton6.Name = "ToolStripButton6"
         Me.ToolStripButton6.Size = New System.Drawing.Size(47, 28)
@@ -976,7 +996,7 @@ Partial Class dashboard
         'ToolStripButton2
         '
         Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton2.Image = Global.Optica_Sosa.My.Resources.Resources.payment
+        Me.ToolStripButton2.Image = Global.OptiVision_2020.My.Resources.Resources.payment
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
         Me.ToolStripButton2.Size = New System.Drawing.Size(47, 28)
@@ -992,7 +1012,7 @@ Partial Class dashboard
         '
         Me.ToolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.ToolStripButton5.Enabled = False
-        Me.ToolStripButton5.Image = Global.Optica_Sosa.My.Resources.Resources.test
+        Me.ToolStripButton5.Image = Global.OptiVision_2020.My.Resources.Resources.test
         Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton5.Name = "ToolStripButton5"
         Me.ToolStripButton5.Size = New System.Drawing.Size(47, 28)
@@ -1008,7 +1028,7 @@ Partial Class dashboard
         '
         Me.ToolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.ToolStripButton4.Enabled = False
-        Me.ToolStripButton4.Image = Global.Optica_Sosa.My.Resources.Resources.factura
+        Me.ToolStripButton4.Image = Global.OptiVision_2020.My.Resources.Resources.factura
         Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton4.Name = "ToolStripButton4"
         Me.ToolStripButton4.Size = New System.Drawing.Size(47, 28)
@@ -1023,7 +1043,7 @@ Partial Class dashboard
         'ToolStripButton3
         '
         Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton3.Image = Global.Optica_Sosa.My.Resources.Resources.oftalmologia
+        Me.ToolStripButton3.Image = Global.OptiVision_2020.My.Resources.Resources.oftalmologia
         Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton3.Name = "ToolStripButton3"
         Me.ToolStripButton3.Size = New System.Drawing.Size(47, 28)
@@ -1033,7 +1053,7 @@ Partial Class dashboard
         '
         Me.ToolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.ToolStripButton8.Enabled = False
-        Me.ToolStripButton8.Image = Global.Optica_Sosa.My.Resources.Resources.tick
+        Me.ToolStripButton8.Image = Global.OptiVision_2020.My.Resources.Resources.tick
         Me.ToolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton8.Name = "ToolStripButton8"
         Me.ToolStripButton8.Size = New System.Drawing.Size(47, 28)
@@ -1049,7 +1069,7 @@ Partial Class dashboard
         '
         Me.ToolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.ToolStripButton7.Enabled = False
-        Me.ToolStripButton7.Image = Global.Optica_Sosa.My.Resources.Resources.verificacion1
+        Me.ToolStripButton7.Image = Global.OptiVision_2020.My.Resources.Resources.verificacion1
         Me.ToolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton7.Name = "ToolStripButton7"
         Me.ToolStripButton7.Size = New System.Drawing.Size(47, 28)
@@ -1069,26 +1089,6 @@ Partial Class dashboard
         '
         Me.Timer1.Interval = 1000
         '
-        'HistoriaClinicaToolStripMenuItem1
-        '
-        Me.HistoriaClinicaToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaToolStripMenuItem5, Me.BuscarToolStripMenuItem7})
-        Me.HistoriaClinicaToolStripMenuItem1.Name = "HistoriaClinicaToolStripMenuItem1"
-        Me.HistoriaClinicaToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
-        Me.HistoriaClinicaToolStripMenuItem1.Text = "Historia Clinica"
-        '
-        'BuscarToolStripMenuItem7
-        '
-        Me.BuscarToolStripMenuItem7.Name = "BuscarToolStripMenuItem7"
-        Me.BuscarToolStripMenuItem7.Size = New System.Drawing.Size(180, 22)
-        Me.BuscarToolStripMenuItem7.Text = "Buscar"
-        '
-        'NuevaToolStripMenuItem5
-        '
-        Me.NuevaToolStripMenuItem5.Name = "NuevaToolStripMenuItem5"
-        Me.NuevaToolStripMenuItem5.Size = New System.Drawing.Size(180, 22)
-        Me.NuevaToolStripMenuItem5.Text = "Nueva"
-        Me.NuevaToolStripMenuItem5.Visible = False
-        '
         'dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1106,7 +1106,7 @@ Partial Class dashboard
         Me.MinimumSize = New System.Drawing.Size(800, 599)
         Me.Name = "dashboard"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = " Dashboard - G-Optics (Sistema para Opticas)  //  Optica Sosa"
+        Me.Text = " Dashboard - G-Optics (Sistema para Opticas)  //  OPTIVISION 20/20 EYEWEAR"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

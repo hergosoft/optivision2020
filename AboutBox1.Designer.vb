@@ -76,7 +76,7 @@ Partial Class AboutBox1
         '
         'LogoPictureBox
         '
-        Me.LogoPictureBox.Image = Global.Optica_Sosa.My.Resources.Resources.logo_soft1
+        Me.LogoPictureBox.Image = Global.OptiVision_2020.My.Resources.Resources.logo_soft1
         Me.LogoPictureBox.Location = New System.Drawing.Point(3, 3)
         Me.LogoPictureBox.Name = "LogoPictureBox"
         Me.TableLayoutPanel.SetRowSpan(Me.LogoPictureBox, 6)
@@ -162,7 +162,7 @@ Partial Class AboutBox1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Optica_Sosa.My.Resources.Resources.bggoptics
+        Me.BackgroundImage = Global.OptiVision_2020.My.Resources.Resources.bggoptics
         Me.CancelButton = Me.OKButton
         Me.ClientSize = New System.Drawing.Size(535, 247)
         Me.Controls.Add(Me.TableLayoutPanel)

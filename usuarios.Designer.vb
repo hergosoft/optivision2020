@@ -56,7 +56,7 @@ Partial Class usuarios
         'Button4
         '
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button4.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button4.Location = New System.Drawing.Point(8, 228)
         Me.Button4.Margin = New System.Windows.Forms.Padding(2)
         Me.Button4.Name = "Button4"
@@ -83,7 +83,7 @@ Partial Class usuarios
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.lapiz
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.lapiz
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button2.Location = New System.Drawing.Point(4, 81)
         Me.Button2.Margin = New System.Windows.Forms.Padding(2)
@@ -99,7 +99,7 @@ Partial Class usuarios
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.mas
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.mas
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button1.Location = New System.Drawing.Point(4, 28)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2)
@@ -163,7 +163,7 @@ Partial Class usuarios
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Optica_Sosa.My.Resources.Resources.usuario
+        Me.PictureBox1.Image = Global.OptiVision_2020.My.Resources.Resources.usuario
         Me.PictureBox1.Location = New System.Drawing.Point(48, 23)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(32, 32)

@@ -49,7 +49,7 @@ Partial Class cambia_agencia
         'Button3
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Image = Global.Optica_Sosa.My.Resources.Resources.binoculares
+        Me.Button3.Image = Global.OptiVision_2020.My.Resources.Resources.binoculares
         Me.Button3.Location = New System.Drawing.Point(204, 16)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(38, 22)
@@ -111,7 +111,7 @@ Partial Class cambia_agencia
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Optica_Sosa.My.Resources.Resources.laptop1
+        Me.PictureBox1.Image = Global.OptiVision_2020.My.Resources.Resources.laptop1
         Me.PictureBox1.Location = New System.Drawing.Point(12, 23)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(64, 65)

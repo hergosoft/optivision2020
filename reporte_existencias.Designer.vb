@@ -300,7 +300,7 @@ Partial Class reporte_existencias
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Consolas", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button3.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button3.Location = New System.Drawing.Point(491, 370)
         Me.Button3.Name = "Button3"
@@ -315,7 +315,7 @@ Partial Class reporte_existencias
         Me.Button2.Enabled = False
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Consolas", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.excel_n
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.excel_n
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(124, 370)
         Me.Button2.Name = "Button2"
@@ -329,7 +329,7 @@ Partial Class reporte_existencias
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Consolas", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.binoculares
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.binoculares
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(12, 370)
         Me.Button1.Name = "Button1"

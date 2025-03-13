@@ -350,7 +350,7 @@ Partial Class cobrar_orden
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button3.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button3.Location = New System.Drawing.Point(384, 439)
         Me.Button3.Name = "Button3"
@@ -365,7 +365,7 @@ Partial Class cobrar_orden
         Me.Button2.Enabled = False
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.guardar
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.guardar
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(286, 439)
         Me.Button2.Name = "Button2"
@@ -438,7 +438,7 @@ Partial Class cobrar_orden
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Optica_Sosa.My.Resources.Resources.Logo_Ososa1
+        Me.PictureBox1.Image = Global.OptiVision_2020.My.Resources.Resources.Optivision2020_logo
         Me.PictureBox1.Location = New System.Drawing.Point(627, 155)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(100, 50)
@@ -456,7 +456,7 @@ Partial Class cobrar_orden
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Optica_Sosa.My.Resources.Resources.qr_atencionalcliente
+        Me.PictureBox2.Image = Global.OptiVision_2020.My.Resources.Resources.qr_atencionalcliente
         Me.PictureBox2.Location = New System.Drawing.Point(627, 228)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(100, 50)

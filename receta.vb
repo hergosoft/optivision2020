@@ -804,7 +804,7 @@ ByVal keyData As System.Windows.Forms.Keys) As Boolean
         cellRect.Location = New Point(CurX, CurY)
         cellRect.Size = New Size(iWidth, CurY)
         'imprimo logo de la orden
-        e.Graphics.DrawImage(PictureBox1.Image, 70, 0, 150, 75)
+        e.Graphics.DrawImage(PictureBox1.Image, 43, 8, 215, 50)
         '  e.Graphics.DrawString("empresa", New Font(fuente, FontStyle.Bold), Brushes.Black, cellRect, TopCenter)
         'imprimo tipo de documento 
         '  cellRect.Location = New Point(CurX, CurY)
@@ -825,8 +825,8 @@ ByVal keyData As System.Windows.Forms.Keys) As Boolean
         e.Graphics.DrawString(dashboard.direcciontienda & ", " & dashboard.SySMuni & ", " & dashboard.SysDepto, fuente, Brushes.Black, cellRect, TopCenter)
         cellRect.Location = New Point(CurX, CurY + 190)
         e.Graphics.DrawString("PBX: " & dashboard.pbx & "  DIRECTO: " & dashboard.telefonotienda, fuente, Brushes.Black, cellRect, TopCenter)
-        cellRect.Location = New Point(CurX, CurY + 203)
-        e.Graphics.DrawString("correo de la tienda", fuente, Brushes.Black, cellRect, TopCenter)
+        'cellRect.Location = New Point(CurX, CurY + 203)
+        'e.Graphics.DrawString("correo de la tienda", fuente, Brushes.Black, cellRect, TopCenter)
 
         'IMPRIMO DATOS DEL CLIENTE 
         cellRect.Location = New Point(CurX, CurY + 223)

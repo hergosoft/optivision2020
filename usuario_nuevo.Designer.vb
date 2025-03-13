@@ -204,7 +204,7 @@ Partial Class usuario_nuevo
         'Button1
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.guardar
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.guardar
         Me.Button1.Location = New System.Drawing.Point(14, 250)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
@@ -215,7 +215,7 @@ Partial Class usuario_nuevo
         'Button2
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button2.Location = New System.Drawing.Point(339, 250)
         Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"

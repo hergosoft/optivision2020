@@ -1511,7 +1511,7 @@ Partial Class receta
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Optica_Sosa.My.Resources.Resources.Logo_Ososa1
+        Me.PictureBox1.Image = Global.OptiVision_2020.My.Resources.Resources.Optivision2020_logo
         Me.PictureBox1.Location = New System.Drawing.Point(1056, 295)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(162, 50)
@@ -1523,7 +1523,7 @@ Partial Class receta
         Me.Button3.BackColor = System.Drawing.Color.White
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Corbel", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Image = Global.Optica_Sosa.My.Resources.Resources.registradora
+        Me.Button3.Image = Global.OptiVision_2020.My.Resources.Resources.registradora
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button3.Location = New System.Drawing.Point(422, 575)
         Me.Button3.Name = "Button3"
@@ -1537,7 +1537,7 @@ Partial Class receta
         '
         Me.btn_agg.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_agg.Font = New System.Drawing.Font("Berlin Sans FB", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_agg.Image = Global.Optica_Sosa.My.Resources.Resources.mas
+        Me.btn_agg.Image = Global.OptiVision_2020.My.Resources.Resources.mas
         Me.btn_agg.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_agg.Location = New System.Drawing.Point(7, 581)
         Me.btn_agg.Name = "btn_agg"
@@ -1551,7 +1551,7 @@ Partial Class receta
         '
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Image = Global.Optica_Sosa.My.Resources.Resources.printer
+        Me.Button5.Image = Global.OptiVision_2020.My.Resources.Resources.printer
         Me.Button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button5.Location = New System.Drawing.Point(422, 575)
         Me.Button5.Name = "Button5"
@@ -1567,7 +1567,7 @@ Partial Class receta
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Corbel", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.guardar
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.guardar
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(422, 575)
         Me.Button2.Name = "Button2"
@@ -1583,7 +1583,7 @@ Partial Class receta
         Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(517, 575)
         Me.Button1.Name = "Button1"
@@ -1598,7 +1598,7 @@ Partial Class receta
         Me.Button4.BackColor = System.Drawing.Color.White
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Corbel", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Image = Global.Optica_Sosa.My.Resources.Resources.locationoff
+        Me.Button4.Image = Global.OptiVision_2020.My.Resources.Resources.locationoff
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button4.Location = New System.Drawing.Point(425, 575)
         Me.Button4.Name = "Button4"
@@ -1614,7 +1614,7 @@ Partial Class receta
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(618, 643)
+        Me.ClientSize = New System.Drawing.Size(619, 642)
         Me.ControlBox = False
         Me.Controls.Add(Me.Advertencia1)
         Me.Controls.Add(Me.dtv_recibos)

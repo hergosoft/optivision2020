@@ -179,8 +179,26 @@ Public Class dashboard
 
         ToolStripButton1.Text = "Agencia: " & no_agencia
 
-        'ejecuto funcion para obtener los datos de la sucursal
-        Info_tienda()
+        'obtengo el # de serial del disco duro
+        Informacion()
+
+        'verifico que el serial tenga asignada una agencia
+        Try
+            conexion.Open()
+            consulta = "select agencia from regpventa where serial='" & serial1 & "'"
+            com = New MySqlCommand(consulta, conexion)
+            rs = com.ExecuteReader
+            rs.Read()
+            no_agencia = rs(0)
+            ToolStripButton1.Text = "Agencia: " & no_agencia
+            conexion.Close()
+        Catch ex As Exception
+            MessageBox.Show("Este equipo no esta registrado como punto de venta ")
+            conexion.Close()
+            no_agencia = 1
+            ToolStripButton1.Text = "Agencia: " & no_agencia
+        End Try
+
         'mensaje pago sistema
         Timer1.Interval = 1000
         '  Timer1.Start() 'Timer starts functioning
@@ -189,32 +207,35 @@ Public Class dashboard
         TopCenter.LineAlignment = StringAlignment.Near
         TopCenter.Alignment = StringAlignment.Center
         'valido que en donde tenga abierto el sistema sea una tienda para imprimir historia clinica 
-        If serial <> "" Then
-            Informacion()
-            If serial = serial1 Then
-                'MessageBox.Show("este equipo es una tienda")
-                '   Timer1.Enabled = True
-            End If
-        Else
-            MessageBox.Show("este equipo no es una tienda")
-        End If
+        'If serial <> "" Then
+        '    Informacion()
+        '    If serial = serial1 Then
+        '        'MessageBox.Show("este equipo es una tienda")
+        '        '   Timer1.Enabled = True
+        '    End If
+        'Else
+        '    MessageBox.Show("este equipo no es una tienda")
+        'End If
         '  Timer1.Enabled = True
 
 
         ip = System.Net.Dns.GetHostEntry(My.Computer.Name)
         ip_maquina.Text = (ip.AddressList(0).ToString)
         '  MessageBox.Show(serie_orden)
+        'ejecuto funcion para obtener los datos de la sucursal
+        Info_tienda()
     End Sub
     Sub Informacion()
         ':::Obtenemos el serial del Disco Duro
         Dim serialDD As New ManagementObject("Win32_PhysicalMedia='\\.\PHYSICALDRIVE0'")
         serial1 = serialDD.Properties("SerialNumber").Value.ToString
+        'MessageBox.Show(serial1)
     End Sub
     Public Sub Info_tienda()
         'Obtengo la info de la tienda seleccionada 
         Try
             conexion.Open()
-            consulta = "SELECT nombre,seriefac,serieord,serierec,codpais,municipio,depto,direccion,establecimiento,telefonos,telefono2,correo,serial,nom_estable from catagencias where id_agencia='" & no_agencia & "' "
+            consulta = "SELECT nombre,seriefac,serieord,serierec,codpais,municipio,depto,direccion,establecimiento,telefonos,telefono2,correo,nom_estable from catagencias where id_agencia='" & no_agencia & "' "
             com = New MySqlCommand(consulta, conexion)
             rs = com.ExecuteReader
             rs.Read()
@@ -231,8 +252,7 @@ Public Class dashboard
             pbx = rs(9)
             telefonotienda = rs(10)
             correotienda = rs(11)
-            serial = rs(12)
-            Sysnomestable = rs(13)
+            Sysnomestable = rs(12)
             rs.Close()
             conexion.Close()
         Catch ex As Exception

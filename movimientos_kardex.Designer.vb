@@ -105,7 +105,7 @@ Partial Class movimientos_kardex
         'Button1
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button1.Location = New System.Drawing.Point(641, 355)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(102, 54)

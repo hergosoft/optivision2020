@@ -10,7 +10,7 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("G-Optics")> 
 <Assembly: AssemblyDescription("G-OPTICS® es el sistema para ópticas que te permite integrar todas tus sucursales, sin  importar la distancia que las separe, no necesitas invertir en servidores especiales, ni discos enormes, sin configuraciones complejas, lleva el control de tu optica de la manera mas facil y eficiente.")>
-<Assembly: AssemblyCompany("OPTICA SOSA")>
+<Assembly: AssemblyCompany("OPTIVISION 20/20 EYEWEAR")>
 <Assembly: AssemblyProduct("G-Optics")>
 <Assembly: AssemblyCopyright("Copyright © HERGOSFOT 2018")>
 <Assembly: AssemblyTrademark("G-Optics")> 

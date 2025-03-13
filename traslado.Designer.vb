@@ -273,7 +273,7 @@ Partial Class traslado
         '
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button5.ForeColor = System.Drawing.Color.Black
-        Me.Button5.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button5.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button5.Location = New System.Drawing.Point(513, 19)
         Me.Button5.Name = "Button5"
@@ -287,7 +287,7 @@ Partial Class traslado
         '
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button4.ForeColor = System.Drawing.Color.Black
-        Me.Button4.Image = Global.Optica_Sosa.My.Resources.Resources.guardar
+        Me.Button4.Image = Global.OptiVision_2020.My.Resources.Resources.guardar
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button4.Location = New System.Drawing.Point(410, 19)
         Me.Button4.Name = "Button4"
@@ -301,7 +301,7 @@ Partial Class traslado
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button3.ForeColor = System.Drawing.Color.Black
-        Me.Button3.Image = Global.Optica_Sosa.My.Resources.Resources.locationoff
+        Me.Button3.Image = Global.OptiVision_2020.My.Resources.Resources.locationoff
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button3.Location = New System.Drawing.Point(85, 18)
         Me.Button3.Name = "Button3"
@@ -315,7 +315,7 @@ Partial Class traslado
         '
         Me.btn_agrega.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btn_agrega.ForeColor = System.Drawing.Color.Black
-        Me.btn_agrega.Image = Global.Optica_Sosa.My.Resources.Resources.mas
+        Me.btn_agrega.Image = Global.OptiVision_2020.My.Resources.Resources.mas
         Me.btn_agrega.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.btn_agrega.Location = New System.Drawing.Point(9, 18)
         Me.btn_agrega.Name = "btn_agrega"
@@ -366,7 +366,7 @@ Partial Class traslado
         '
         'ToolStripButton1
         '
-        Me.ToolStripButton1.Image = Global.Optica_Sosa.My.Resources.Resources.printer
+        Me.ToolStripButton1.Image = Global.OptiVision_2020.My.Resources.Resources.printer
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(73, 22)

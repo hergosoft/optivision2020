@@ -136,7 +136,7 @@ Public Class facturacion_directa
         cellRect.Location = New Point(CurX, CurY)
         cellRect.Size = New Size(iWidth, CurY)
         'imprimo nombre de la empresa 
-        e.Graphics.DrawImage(PictureBox1.Image, 75, 0, 140, 60)
+        e.Graphics.DrawImage(PictureBox1.Image, 43, 7, 215, 50)
         'nombre comercial 
         cellRect.Location = New Point(CurX, CurY + 18)
         e.Graphics.DrawString(dashboard.Sysnomestable, fuente1, Brushes.Black, cellRect, TopCenter)

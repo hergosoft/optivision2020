@@ -81,7 +81,7 @@ Partial Class cat_tipo
         '
         Me.Button4.BackColor = System.Drawing.Color.White
         Me.Button4.Font = New System.Drawing.Font("Berlin Sans FB Demi", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Image = Global.Optica_Sosa.My.Resources.Resources.locationoff
+        Me.Button4.Image = Global.OptiVision_2020.My.Resources.Resources.locationoff
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button4.Location = New System.Drawing.Point(6, 223)
         Me.Button4.Name = "Button4"
@@ -95,7 +95,7 @@ Partial Class cat_tipo
         '
         Me.Button3.BackColor = System.Drawing.Color.White
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button3.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button3.Location = New System.Drawing.Point(6, 285)
         Me.Button3.Name = "Button3"
@@ -108,7 +108,7 @@ Partial Class cat_tipo
         '
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.Font = New System.Drawing.Font("Berlin Sans FB Demi", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.lapiz
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.lapiz
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button2.Location = New System.Drawing.Point(6, 80)
         Me.Button2.Name = "Button2"
@@ -123,7 +123,7 @@ Partial Class cat_tipo
         Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.Font = New System.Drawing.Font("Berlin Sans FB Demi", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.mas
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.mas
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button1.Location = New System.Drawing.Point(6, 26)
         Me.Button1.Name = "Button1"

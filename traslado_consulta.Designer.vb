@@ -90,7 +90,7 @@ Partial Class traslado_consulta
         'Button4
         '
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button4.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button4.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button4.Location = New System.Drawing.Point(6, 259)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(84, 40)
@@ -101,7 +101,7 @@ Partial Class traslado_consulta
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.printer
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.printer
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(6, 98)
         Me.Button2.Name = "Button2"
@@ -116,7 +116,7 @@ Partial Class traslado_consulta
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.inbox
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.inbox
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(9, 16)
         Me.Button1.Name = "Button1"

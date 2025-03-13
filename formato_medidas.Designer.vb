@@ -102,7 +102,7 @@ Partial Class formato_medidas
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button1.Location = New System.Drawing.Point(280, 164)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 47)
@@ -112,7 +112,7 @@ Partial Class formato_medidas
         'Button2
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.guardar
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.guardar
         Me.Button2.Location = New System.Drawing.Point(199, 164)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 47)

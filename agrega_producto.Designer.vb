@@ -98,7 +98,7 @@ Partial Class agrega_producto
         '
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button2.Location = New System.Drawing.Point(589, 1)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(56, 38)

@@ -86,7 +86,9 @@ Public Class productos_buscar
                 consulta = "SELECT (SUM(entrada)-SUM(salida)) AS Existencia_Global,
                                     SUM(IF(k.id_agencia= 1,entrada-salida,0)) '1',
                                     SUM(IF(k.id_agencia= 2,entrada-salida,0)) '2',
-                                    SUM(IF(k.id_agencia= 3,entrada-salida,0)) '3'            
+                                    SUM(IF(k.id_agencia= 3,entrada-salida,0)) '3',
+                                    SUM(IF(k.id_agencia= 4,entrada-salida,0)) '4',
+                                    SUM(IF(k.id_agencia= 5,entrada-salida,0)) '5'            
                                     FROM inventario AS i LEFT JOIN kardexinven AS k ON(i.id_codigo=k.id_codigo)
                                     left outer join catagencias as a on k.id_agencia=a.id_agencia
                             WHERE fecha <= '" & fecha & "' and  i.id_codigo='" & CStr(row.Cells(0).Value) & "'
@@ -99,26 +101,27 @@ Public Class productos_buscar
                 existenage(1, 0) = rs(1)
                 existenage(2, 0) = rs(2)
                 existenage(3, 0) = rs(3)
-                'existenage(4, 0) = rs(4)
-                'existenage(5, 0) = rs(5)
+                existenage(4, 0) = rs(4)
+                existenage(5, 0) = rs(5)
                 existenage(0, 1) = "0"
                 existenage(1, 1) = "1"
                 existenage(2, 1) = "2"
                 existenage(3, 1) = "3"
-                'existenage(4, 1) = "4"
-                'existenage(5, 1) = "5"
+                existenage(4, 1) = "4"
+                existenage(5, 1) = "5"
                 existenage(0, 2) = "EXISTENCIA GLOBAL"
-                existenage(1, 2) = "BODEGA CENTRAL"
-                existenage(2, 2) = "CIUDAD QUETZAL"
-                existenage(3, 2) = "SAN RAYMUNDO"
-                'existenage(4, 2) = "OTRAS"
+                existenage(1, 2) = "BODEGA"
+                existenage(2, 2) = "MALACATAN"
+                existenage(3, 2) = "PLAZA ZONA 4"
+                existenage(4, 2) = "GALERIAS PRIMA"
+                existenage(5, 2) = "CATARINA"
                 ' MessageBox.Show(existenage(0, 1))
                 rs.Close()
                 conexion.Close()
             Catch ex As Exception
                 MsgBox("El producto a consultar no tiene existencia en ninguna de las sucursales. " &
-                   vbCrLf & vbCrLf & ex.Message,
-                   MsgBoxStyle.OkOnly + MsgBoxStyle.Critical)
+                   vbCrLf & vbCrLf,
+                   MsgBoxStyle.OkOnly + MsgBoxStyle.Information)
                 conexion.Close()
                 Return
             End Try
@@ -132,7 +135,8 @@ Public Class productos_buscar
             producto_detalle.DataGridView1.Rows.Add(existenage(1, 1), existenage(1, 2), existenage(1, 0))
             producto_detalle.DataGridView1.Rows.Add(existenage(2, 1), existenage(2, 2), existenage(2, 0))
             producto_detalle.DataGridView1.Rows.Add(existenage(3, 1), existenage(3, 2), existenage(3, 0))
-            '    producto_detalle.DataGridView1.Rows.Add(existenage(4, 1), existenage(4, 2), existenage(4, 0))
+            producto_detalle.DataGridView1.Rows.Add(existenage(4, 1), existenage(4, 2), existenage(4, 0))
+            producto_detalle.DataGridView1.Rows.Add(existenage(4, 1), existenage(4, 2), existenage(5, 0))
             producto_detalle.DataGridView1.Rows.Add(existenage(0, 1), existenage(0, 2), existenage(0, 0))
             'abro ventana para mostrar existencia en todas las sucursales 
             producto_detalle.ShowDialog()
@@ -161,7 +165,9 @@ Public Class productos_buscar
                             SUM(IF(k.id_agencia= 1,entrada-salida,0)) AS Agencia1,
                             SUM(IF(k.id_agencia= 2,entrada-salida,0)) AS Agencia2,
                             SUM(IF(k.id_agencia= 3,entrada-salida,0)) AS Agencia3,
-                            SUM(IF(k.id_agencia>=4,entrada-salida,0)) AS otras
+                            SUM(IF(k.id_agencia= 4,entrada-salida,0)) AS Agencia4,
+                            SUM(IF(k.id_agencia= 5,entrada-salida,0)) AS Agencia5
+                          
                             FROM inventario AS i LEFT JOIN kardexinven AS k ON(i.id_codigo=k.id_codigo)
                             left outer join catagencias as a on k.id_agencia=a.id_agencia
                             WHERE fecha <= '" & fecha & "' and  i.id_codigo='" & CStr(row.Cells(0).Value) & "'

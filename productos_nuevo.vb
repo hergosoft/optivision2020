@@ -228,7 +228,7 @@ Public Class productos_nuevo
                     precio.Text = "0.00"
                     descripcion.Focus()
                 ElseIf pregunta = vbNo Then
-                    Me.Close()
+                    Me.Dispose()
                 End If
             Catch ex As Exception
                 MessageBox.Show("No pude guardar el producto, Contacta a Soporte Tecnico ")
@@ -251,7 +251,7 @@ Public Class productos_nuevo
                 precio.Text = "0.00"
                 descripcion.Focus()
                 productos_buscar.Button1.PerformClick()
-                Me.Close()
+                Me.Dispose()
             Catch ex As Exception
                 MsgBox("No fue posible actualizar el detalle del producto, si el error persiste contacta con Soporte Tecnico " &
                    vbCrLf & vbCrLf & ex.Message,

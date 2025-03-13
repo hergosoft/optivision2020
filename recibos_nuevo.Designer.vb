@@ -618,7 +618,7 @@ Partial Class recibos_nuevo
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Optica_Sosa.My.Resources.Resources.qr_atencionalcliente
+        Me.PictureBox2.Image = Global.OptiVision_2020.My.Resources.Resources.qr_atencionalcliente
         Me.PictureBox2.Location = New System.Drawing.Point(769, 276)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(100, 50)
@@ -627,7 +627,7 @@ Partial Class recibos_nuevo
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Optica_Sosa.My.Resources.Resources.Logo_Ososa
+        Me.PictureBox1.Image = Global.OptiVision_2020.My.Resources.Resources.Optivision2020_logo
         Me.PictureBox1.Location = New System.Drawing.Point(823, 180)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(100, 50)
@@ -638,7 +638,7 @@ Partial Class recibos_nuevo
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Image = Global.Optica_Sosa.My.Resources.Resources.printer
+        Me.Button3.Image = Global.OptiVision_2020.My.Resources.Resources.printer
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button3.Location = New System.Drawing.Point(405, 387)
         Me.Button3.Name = "Button3"
@@ -653,7 +653,7 @@ Partial Class recibos_nuevo
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.guardar
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.guardar
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(497, 387)
         Me.Button1.Name = "Button1"
@@ -667,7 +667,7 @@ Partial Class recibos_nuevo
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(588, 387)
         Me.Button2.Name = "Button2"

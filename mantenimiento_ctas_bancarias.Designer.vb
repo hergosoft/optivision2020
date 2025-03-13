@@ -49,7 +49,7 @@ Partial Class mantenimiento_ctas_bancarias
         'Button4
         '
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button4.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button4.Location = New System.Drawing.Point(6, 290)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(104, 47)
@@ -60,7 +60,7 @@ Partial Class mantenimiento_ctas_bancarias
         '
         Me.modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.modificar.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.modificar.Image = Global.Optica_Sosa.My.Resources.Resources.lapiz
+        Me.modificar.Image = Global.OptiVision_2020.My.Resources.Resources.lapiz
         Me.modificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.modificar.Location = New System.Drawing.Point(6, 83)
         Me.modificar.Name = "modificar"
@@ -74,7 +74,7 @@ Partial Class mantenimiento_ctas_bancarias
         '
         Me.nueva.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nueva.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nueva.Image = Global.Optica_Sosa.My.Resources.Resources.mas
+        Me.nueva.Image = Global.OptiVision_2020.My.Resources.Resources.mas
         Me.nueva.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.nueva.Location = New System.Drawing.Point(6, 19)
         Me.nueva.Name = "nueva"

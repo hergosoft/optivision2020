@@ -86,7 +86,7 @@ Partial Class formato_documentos
         '
         Me.cerrar.BackColor = System.Drawing.Color.White
         Me.cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.cerrar.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.cerrar.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.cerrar.Location = New System.Drawing.Point(469, 387)
         Me.cerrar.Name = "cerrar"
         Me.cerrar.Size = New System.Drawing.Size(72, 51)

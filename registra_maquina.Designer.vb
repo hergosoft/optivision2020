@@ -78,7 +78,7 @@ Partial Class registra_maquina
         '
         Me.Button3.BackColor = System.Drawing.Color.White
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Image = Global.Optica_Sosa.My.Resources.Resources.guardar
+        Me.Button3.Image = Global.OptiVision_2020.My.Resources.Resources.guardar
         Me.Button3.Location = New System.Drawing.Point(206, 209)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(130, 56)
@@ -89,7 +89,7 @@ Partial Class registra_maquina
         '
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.inbox
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.inbox
         Me.Button2.Location = New System.Drawing.Point(12, 209)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(130, 56)
@@ -100,7 +100,7 @@ Partial Class registra_maquina
         '
         Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button1.Location = New System.Drawing.Point(376, 206)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(118, 56)

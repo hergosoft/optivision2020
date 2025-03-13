@@ -87,7 +87,7 @@ Partial Class mantenimiento_nomcontable
         '
         Me.Button4.BackColor = System.Drawing.Color.White
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button4.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button4.Location = New System.Drawing.Point(14, 361)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(104, 47)
@@ -99,7 +99,7 @@ Partial Class mantenimiento_nomcontable
         Me.modificar.BackColor = System.Drawing.Color.White
         Me.modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.modificar.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.modificar.Image = Global.Optica_Sosa.My.Resources.Resources.lapiz
+        Me.modificar.Image = Global.OptiVision_2020.My.Resources.Resources.lapiz
         Me.modificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.modificar.Location = New System.Drawing.Point(14, 174)
         Me.modificar.Name = "modificar"
@@ -114,7 +114,7 @@ Partial Class mantenimiento_nomcontable
         Me.nueva.BackColor = System.Drawing.Color.White
         Me.nueva.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nueva.Font = New System.Drawing.Font("Franklin Gothic Demi", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nueva.Image = Global.Optica_Sosa.My.Resources.Resources.mas
+        Me.nueva.Image = Global.OptiVision_2020.My.Resources.Resources.mas
         Me.nueva.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.nueva.Location = New System.Drawing.Point(14, 103)
         Me.nueva.Name = "nueva"

@@ -113,7 +113,7 @@ Partial Class correlativos
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(438, 163)
         Me.Button2.Name = "Button2"
@@ -127,7 +127,7 @@ Partial Class correlativos
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.guardar
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.guardar
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(12, 163)
         Me.Button1.Name = "Button1"

@@ -146,7 +146,7 @@ Partial Class reporte_precios
         '
         Me.Button1.Enabled = False
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Image = Global.Optica_Sosa.My.Resources.Resources.binoculares
+        Me.Button1.Image = Global.OptiVision_2020.My.Resources.Resources.binoculares
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(6, 14)
         Me.Button1.Name = "Button1"
@@ -196,7 +196,7 @@ Partial Class reporte_precios
         'Button3
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button3.Image = Global.Optica_Sosa.My.Resources.Resources.cruzar
+        Me.Button3.Image = Global.OptiVision_2020.My.Resources.Resources.cruzar
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button3.Location = New System.Drawing.Point(378, 12)
         Me.Button3.Name = "Button3"
@@ -209,7 +209,7 @@ Partial Class reporte_precios
         'Button2
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button2.Image = Global.Optica_Sosa.My.Resources.Resources.excel1
+        Me.Button2.Image = Global.OptiVision_2020.My.Resources.Resources.excel1
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(292, 12)
         Me.Button2.Name = "Button2"
