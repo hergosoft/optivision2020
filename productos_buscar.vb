@@ -136,7 +136,7 @@ Public Class productos_buscar
             producto_detalle.DataGridView1.Rows.Add(existenage(2, 1), existenage(2, 2), existenage(2, 0))
             producto_detalle.DataGridView1.Rows.Add(existenage(3, 1), existenage(3, 2), existenage(3, 0))
             producto_detalle.DataGridView1.Rows.Add(existenage(4, 1), existenage(4, 2), existenage(4, 0))
-            producto_detalle.DataGridView1.Rows.Add(existenage(4, 1), existenage(4, 2), existenage(5, 0))
+            producto_detalle.DataGridView1.Rows.Add(existenage(5, 1), existenage(5, 2), existenage(5, 0))
             producto_detalle.DataGridView1.Rows.Add(existenage(0, 1), existenage(0, 2), existenage(0, 0))
             'abro ventana para mostrar existencia en todas las sucursales 
             producto_detalle.ShowDialog()

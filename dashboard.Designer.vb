@@ -267,7 +267,7 @@ Partial Class dashboard
         '
         Me.RecibosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ReciboToolStripMenuItem, Me.AbonoOrdenToolStripMenuItem, Me.BuscarToolStripMenuItem1, Me.AnularToolStripMenuItem})
         Me.RecibosToolStripMenuItem.Name = "RecibosToolStripMenuItem"
-        Me.RecibosToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.RecibosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.RecibosToolStripMenuItem.Text = "Recibo"
         '
         'ReciboToolStripMenuItem
@@ -301,7 +301,7 @@ Partial Class dashboard
         '
         Me.OrdenDeLaboratorioToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaToolStripMenuItem2, Me.EnviarALaboratorioToolStripMenuItem, Me.BuscarToolStripMenuItem3, Me.RectificacionesToolStripMenuItem, Me.AnularToolStripMenuItem1})
         Me.OrdenDeLaboratorioToolStripMenuItem1.Name = "OrdenDeLaboratorioToolStripMenuItem1"
-        Me.OrdenDeLaboratorioToolStripMenuItem1.Size = New System.Drawing.Size(165, 22)
+        Me.OrdenDeLaboratorioToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.OrdenDeLaboratorioToolStripMenuItem1.Text = "Orden de Trabajo"
         '
         'NuevaToolStripMenuItem2
@@ -345,7 +345,7 @@ Partial Class dashboard
         '
         Me.OrdenesDeTrabajoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaToolStripMenuItem1, Me.BuscarToolStripMenuItem2, Me.AnulacionToolStripMenuItem1})
         Me.OrdenesDeTrabajoToolStripMenuItem.Name = "OrdenesDeTrabajoToolStripMenuItem"
-        Me.OrdenesDeTrabajoToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.OrdenesDeTrabajoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.OrdenesDeTrabajoToolStripMenuItem.Text = "Facturacion"
         '
         'NuevaToolStripMenuItem1
@@ -372,21 +372,22 @@ Partial Class dashboard
         'NotaDeEntregaToolStripMenuItem
         '
         Me.NotaDeEntregaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaToolStripMenuItem3})
+        Me.NotaDeEntregaToolStripMenuItem.Enabled = False
         Me.NotaDeEntregaToolStripMenuItem.Name = "NotaDeEntregaToolStripMenuItem"
-        Me.NotaDeEntregaToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.NotaDeEntregaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.NotaDeEntregaToolStripMenuItem.Text = "Nota de Entrega"
         '
         'NuevaToolStripMenuItem3
         '
         Me.NuevaToolStripMenuItem3.Name = "NuevaToolStripMenuItem3"
-        Me.NuevaToolStripMenuItem3.Size = New System.Drawing.Size(108, 22)
+        Me.NuevaToolStripMenuItem3.Size = New System.Drawing.Size(180, 22)
         Me.NuevaToolStripMenuItem3.Text = "Nueva"
         '
         'HistoriasClinicasToolStripMenuItem
         '
         Me.HistoriasClinicasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MoificarToolStripMenuItem})
         Me.HistoriasClinicasToolStripMenuItem.Name = "HistoriasClinicasToolStripMenuItem"
-        Me.HistoriasClinicasToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.HistoriasClinicasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.HistoriasClinicasToolStripMenuItem.Text = "Expedientes"
         '
         'MoificarToolStripMenuItem
@@ -401,7 +402,7 @@ Partial Class dashboard
         '
         Me.HistoriaClinicaToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaToolStripMenuItem5, Me.BuscarToolStripMenuItem7})
         Me.HistoriaClinicaToolStripMenuItem1.Name = "HistoriaClinicaToolStripMenuItem1"
-        Me.HistoriaClinicaToolStripMenuItem1.Size = New System.Drawing.Size(165, 22)
+        Me.HistoriaClinicaToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.HistoriaClinicaToolStripMenuItem1.Text = "Historia Clinica"
         '
         'NuevaToolStripMenuItem5
@@ -421,7 +422,7 @@ Partial Class dashboard
         '
         Me.FacturacionToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaToolStripMenuItem, Me.OrdenesToolStripMenuItem1, Me.BuscarToolStripMenuItem, Me.AnulacionToolStripMenuItem})
         Me.FacturacionToolStripMenuItem1.Name = "FacturacionToolStripMenuItem1"
-        Me.FacturacionToolStripMenuItem1.Size = New System.Drawing.Size(165, 22)
+        Me.FacturacionToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.FacturacionToolStripMenuItem1.Text = "Facturacion"
         Me.FacturacionToolStripMenuItem1.Visible = False
         '
@@ -452,7 +453,7 @@ Partial Class dashboard
         'RecibosDePagoVentasDiariasToolStripMenuItem
         '
         Me.RecibosDePagoVentasDiariasToolStripMenuItem.Name = "RecibosDePagoVentasDiariasToolStripMenuItem"
-        Me.RecibosDePagoVentasDiariasToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.RecibosDePagoVentasDiariasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.RecibosDePagoVentasDiariasToolStripMenuItem.Text = "Corte de Caja"
         '
         'm_inventario

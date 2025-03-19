@@ -39,7 +39,7 @@
     <PublisherName>Hergosoft</PublisherName>
     <SuiteName>OptiVision 2020</SuiteName>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>165</ApplicationRevision>
+    <ApplicationRevision>167</ApplicationRevision>
     <ApplicationVersion>1.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
